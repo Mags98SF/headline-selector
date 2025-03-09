@@ -114,6 +114,17 @@ body {
     transform: scale(0.95);
 }
 
+#clubSelector {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    max-width: 90%;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .masthead {
